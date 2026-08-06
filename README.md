@@ -46,5 +46,12 @@ https://okeanea-clinic.ru/#doctors
 https://okeanea-clinic.ru/analizy#contacts
 ```
 
+| № | Запись на врач |
+| ----------- | ----------- |
+| 1| Церцвадзе Зураб Юзович  |
+| 2|Чувашкина Ольга Викторовна |
+
+
+
 
 
