@@ -41,7 +41,10 @@ https://okeanea-clinic.ru/
 https://okeanea-clinic.ru/#doctors
 ```
 
-![image] <img width="480" height="311" alt="i" src="https://github.com/user-attachments/assets/1677d668-c7a0-49b2-af4d-761174ef7758" />
-</p>
+``
+```My first test is a trial run - Мой первый тест - это пробная работа.
+C:\Users\Шохина\Desktop\Test Apach JMeter
+```
+
 
 
