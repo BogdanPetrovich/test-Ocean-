@@ -3,7 +3,7 @@
 
 # Ocean.ru
 
-<p align="center"><a href="https://selenium.dev"><img src="<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/6acaf5e8-d471-4c5b-835b-1f4f72067ae2" />
+<p align="center"><a href="https://spa-saratov.ru/v"><img src="<img width="1200" height="675" alt="image" src="https://spa-saratov.ru/" />
 " width="100" alt="Ocean"/></a></p>
 
 <p align="center"><b>ГЛАВНЫЙ<br>Ocean</b></p>
