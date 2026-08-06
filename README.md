@@ -3,8 +3,8 @@
 
 # Ocean.ru
 
-<p align="center"><a href="https://spa-saratov.ru/v"><img src="<img width="1200" height="675" alt="image" src="https://spa-saratov.ru/" />
-" width="100" alt="Ocean"/></a></p>
+<p align="center"><a href="https://spa-saratov.ru/"><img src="https://spa-saratov.ru/" width="100" alt="Ocean"/></a></p>
+
 
 <p align="center"><b>ГЛАВНЫЙ<br>Ocean</b></p>
 
