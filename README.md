@@ -67,16 +67,30 @@ https://okeanea-clinic.ru/analizy#contacts
 
 
 
-### Links
 
-A markdown file divides links into two categories: **inline** and **relative**.
 
-#### Testirovani Ocean 
+# ~~**Ocean** and **Ocean**~~
+
+###
 
 Писать `[ ]` Писать  `( )`.
 
 
- ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+ ![:]
+
+
+ [x] Test Ocean
+- [ ] https://okeanea-clinic.ru/#problemy-tsertsvadze
+- [ ] https://okeanea-clinic.ru/analizy
+      
+
+[^1]: This is the first footnote.
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+[^bignote]: Here's one with multiple paragraphs and code.
+
+
+
+
 
 
 
