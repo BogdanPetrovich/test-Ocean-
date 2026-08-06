@@ -30,7 +30,6 @@ https://okeanea-clinic.ru/
 ```
 
 
-![Yandex](<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/ce98b0e0-8256-4e67-9c35-32ddfeecc1f5" />
-.png) Yandex
+<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/ce98b0e0-8256-4e67-9c35-32ddfeecc1f5" />
 
 
