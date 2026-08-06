@@ -29,6 +29,8 @@ Text for quick copying - Текст для быстрого копировани
 https://okeanea-clinic.ru/
 ```
 
-![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/main/src/chrome/chrome_24x24.png) Chrome
+
+![Yandex](<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/ce98b0e0-8256-4e67-9c35-32ddfeecc1f5" />
+.png) Yandex
 
 
