@@ -3,7 +3,10 @@
 
 # Ocean.ru
 
-<p align="center"><a href="https://spa-saratov.ru/"><img src="https://spa-saratov.ru/" width="100" alt="Ocean"/></a></p>
+
+<p align="center"><a href="https://spa-saratov.ru/">
+<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/ce98b0e0-8256-4e67-9c35-32ddfeecc1f5" />
+ alt="Ocean"/></a></p>
 
 
 <p align="center"><b>ГЛАВНЫЙ<br>Ocean</b></p>
@@ -12,7 +15,7 @@
 
 
 
-[(Polyclenicа Ocean 1)](https://okeanea-clinic.ru)
+[(Test Polyclenicа Ocean )](https://okeanea-clinic.ru)
 
 
 ## 1. Test Ocean 1
@@ -30,6 +33,6 @@ https://okeanea-clinic.ru/
 ```
 
 
-<img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/ce98b0e0-8256-4e67-9c35-32ddfeecc1f5" />
+<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/ce98b0e0-8256-4e67-9c35-32ddfeecc1f5" />
 
 
