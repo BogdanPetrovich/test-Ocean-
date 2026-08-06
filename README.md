@@ -43,7 +43,7 @@ https://okeanea-clinic.ru/#doctors
 
 ``
 ```My first test is a trial run - Мой первый тест - это пробная работа.
-C:\Users\Шохина\Desktop\Test Apach JMeter
+
 ```
 
 
