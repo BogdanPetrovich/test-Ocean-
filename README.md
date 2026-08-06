@@ -3,8 +3,14 @@
 
 # Ocean.ru
 
-<p align="center"><a href="https://selenium.dev"><img src="https://selenium.dev/images/selenium_logo_square_green.png" width="100" alt="Selenium"/></a></p>
+<p align="center"><a href="https://selenium.dev"><img src="<img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/6acaf5e8-d471-4c5b-835b-1f4f72067ae2" />
+" width="100" alt="Ocean"/></a></p>
 
-<p align="center"><b>ГЛАВНЫЙ<br>Репозиторий</b></p>
+<p align="center"><b>ГЛАВНЫЙ<br>Ocean</b></p>
 
-<p align="center"><a href="https://seleniumbase.io"><img src="https://img.shields.io/badge/docs-seleniumbase.io-11BBAA.svg" alt="SeleniumBase Docs"/></a></p>
+<p align="center"><a href="https://Ocean.io"><img src="https://avatars.mds.yandex.net/get-altay/14007310/2a00000195f6a4e109a6e3989f1a99beb8ed/orig" " width="500" alt="Ocean"/></a></p>
+
+
+
+
+
