@@ -64,6 +64,18 @@ https://okeanea-clinic.ru/analizy#contacts
 ![Go to this website.](https://www.freecodecamp.org/news/content/images/2024/04/Collapsed-in-markdown.png)
 _Перейдите на этот веб-сайт - Go to this website_
 
+> [!NOTE]
+> gg
 
-![Collapsed example in markdown.](https://www.freecodecamp.org/news/content/images/2024/04/Collapsed-in-markdown.png)
-_Collapsed example in markdown._
+> [!TIP]
+> gg
+
+> [!IMPORTANT]
+> dd
+
+> [!WARNING]
+> aa
+
+> [!CAUTION]
+> ffffff
+
