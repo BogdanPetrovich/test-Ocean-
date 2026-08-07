@@ -85,7 +85,7 @@ https://okeanea-clinic.ru/analizy#contacts
 
 
  [x] Test Ocean
-- [ ] https://okeanea-clinic.ru/#problemy-tsertsvadze
+- [x] https://okeanea-clinic.ru/#problemy-tsertsvadze
 - [ ] https://okeanea-clinic.ru/analizy
       
 
@@ -111,5 +111,5 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 > ffffff
 
 
-
+:+1: :camel: :cactus: :rocket: :unicorn: 
 
