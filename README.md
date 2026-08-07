@@ -38,6 +38,11 @@ https://okeanea-clinic.ru/analizy#contacts
 | 4|:stuck_out_tongue_winking_eye:|
 
 
+###### https://okeanea-clinic.ru/#problemy-tsertsvadze
+
+Напишите мелким почерком - Write it in small handwriting.
+
+###### https://okeanea-clinic.ru/#problemy-tsertsvadze
 
 
 
