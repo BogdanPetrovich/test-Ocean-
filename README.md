@@ -80,8 +80,11 @@ _Перейдите на этот веб-сайт - Go to this website_
 > ffffff
 
 
-1. [Mermaid](#heading-mermaid) 
-2. [GeoJSON and TopoJSON](#heading-geojson-and-topojson)
-3. [ASCII STL](#heading-ascii-stl)
+1. [](#heading-mermaid) 
+2. [](#heading-geojson-and-)
+3. [](#heading-)
+
+
+
 
 
