@@ -47,8 +47,23 @@ https://okeanea-clinic.ru/analizy#contacts
 ###### https://okeanea-clinic.ru/#problemy-tsertsvadze
 
 
+# ~~Задачи для тестирования поликлиники Ocean - Tasks for testing Ocean Polyclinic~~
+
+###
+
+Писать `[  ]` Писать  `( )`.
 
 
+ ![:] Hi
 
 
+ [x] Test Ocean
+- [ ] https://okeanea-clinic.ru/#problemy-tsertsvadze
+- [ ] https://okeanea-clinic.ru/analizy
 
+![Go to this website.](https://www.freecodecamp.org/news/content/images/2024/04/Collapsed-in-markdown.png)
+_Перейдите на этот веб-сайт - Go to this website_
+
+
+![Collapsed example in markdown.](https://www.freecodecamp.org/news/content/images/2024/04/Collapsed-in-markdown.png)
+_Collapsed example in markdown._
