@@ -80,13 +80,13 @@ _Перейдите на этот веб-сайт - Go to this website_
 > ffffff
 
 
-1. [Fox](#heading-fox) 
-2. [Wolf](#heading-wolf-)
-3. [Elephant](#heading-elephant-)
 
 
-1. [Mermaid](#heading-mermaid) 
-2. [GeoJSON and TopoJSON](#heading-geojson-and-topojson)
-3. [ASCII STL](#heading-ascii-stl)
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+
+
+
 
 
