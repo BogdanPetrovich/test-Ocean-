@@ -3,7 +3,7 @@
 ## Второй этап тестирования - это веб-сайт Ocean на github - The second stage of testing is the Ocean website on github.
 
 
-<p align="center"><a href="https://spa-saratov.ru/">
+<p align="center"><a href="https://okeanea-clinic.ru/">
 <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/ce98b0e0-8256-4e67-9c35-32ddfeecc1f5" />
  alt="Ocean"/></a></p>
 
