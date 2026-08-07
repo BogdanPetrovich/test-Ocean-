@@ -34,8 +34,8 @@ https://okeanea-clinic.ru/analizy#contacts
 | ----------- | ----------- |
 | 1|:smiley:|
 | 2|:grin:|
-| 3|
-| 4|
+| 3|:smirk:|
+| 4|:stuck_out_tongue_winking_eye:|
 
 
 
