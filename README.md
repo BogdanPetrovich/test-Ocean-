@@ -10,8 +10,7 @@
 
 <p align="center"><b>ГЛАВНЫЙ<br>Ocean</b></p>
 
-<p align="center"><a href="https://Ocean.io"><img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/a7104225-8766-4bd1-a1e0-01ecdc90f8d0" />
-" " width="480" alt="Ocean"/></a></p>
+<p align="center"><a href="https://Ocean.io"><img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/a7104225-8766-4bd1-a1e0-01ecdc90f8d0" />/></a>
 
 
 
