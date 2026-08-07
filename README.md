@@ -10,7 +10,9 @@
 
 <p align="center"><b>ГЛАВНЫЙ<br>Ocean</b></p>
 
-<p align="center"><a href="https://Ocean.io"><img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/a7104225-8766-4bd1-a1e0-01ecdc90f8d0" />/></a>
+<p align="center"><a href="https://Ocean.io"><img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/a7104225-8766-4bd1-a1e0-01ecdc90f8d0" />
+
+
 
 ``Зайдите и посмотрите, какие врачи работают - Come in and see which doctors are working.
 ```
