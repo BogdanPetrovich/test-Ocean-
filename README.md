@@ -17,8 +17,8 @@
 https://okeanea-clinic.ru/#doctors
 ```
 
-``
-```My first test is a trial run - Мой первый тест - это пробная работа.
+``Зайдите и посмотрите, какие врачи работают в этой клинике - Come in and see which doctors work at this clinic.
+```
 https://okeanea-clinic.ru/analizy#contacts
 ```
 
