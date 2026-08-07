@@ -79,3 +79,9 @@ _Перейдите на этот веб-сайт - Go to this website_
 > [!CAUTION]
 > ffffff
 
+
+1. [Mermaid](#heading-mermaid) 
+2. [GeoJSON and TopoJSON](#heading-geojson-and-topojson)
+3. [ASCII STL](#heading-ascii-stl)
+
+
