@@ -79,9 +79,9 @@ https://okeanea-clinic.ru/analizy#contacts
  ![:]
 
 
- [x] Test Ocean
-- [ ] https://okeanea-clinic.ru/#problemy-tsertsvadze
-- [ ] https://okeanea-clinic.ru/analizy
+### Test Ocean
+- [ x ] https://okeanea-clinic.ru/#problemy-tsertsvadze
+- [ x ] https://okeanea-clinic.ru/analizy
       
 
 [^1]: This is the first footnote.
