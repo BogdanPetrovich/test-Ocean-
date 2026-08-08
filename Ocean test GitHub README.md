@@ -1,3 +1,6 @@
+Test Ocean three
+==
+
 # Test Ocean three
 
 # Test Ocean three
@@ -74,9 +77,9 @@ https://okeanea-clinic.ru/analizy#contacts
 Писать `[ ]` Писать  `( )`.
 
 
- [x] Test Ocean
+  Test Ocean
 - [x] https://okeanea-clinic.ru/#problemy-tsertsvadze
-- [ ] https://okeanea-clinic.ru/analizy
+- [ ]  https://okeanea-clinic.ru/analizy
 - [ ] https://okeanea-clinic.ru/kardiolog
 - [ ] https://okeanea-clinic.ru/kardiolog
   
@@ -103,18 +106,9 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 > ffffff
 
 
-
-# Игнорировать каталог в любом месте
-https://willkyu.github.io/ZONE/Emoji/Emoji.html node_modules/
-
-# Игнорировать файлы логов в любом месте
-*https://willkyu.github.io/ZONE/Emoji/Emoji.html.log
-
-# Игнорировать каталог в корне
-https://willkyu.github.io/ZONE/Emoji/Emoji.html/dist
-
-# Игнорировать файл с окончанием
-https://willkyu.github.io/ZONE/Emoji/Emoji.html.env
+====
+ii
+==
 
 
 
