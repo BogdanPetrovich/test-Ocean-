@@ -86,12 +86,6 @@ https://okeanea-clinic.ru/analizy#contacts
 - [ ] https://okeanea-clinic.ru/kardiolog
   
 
-[^1]: This is the first footnote.
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-[^bignote]: Here's one with multiple paragraphs and code.
-
-
-
 > [!NOTE]
 > gg
 
@@ -111,9 +105,9 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 |№ 1|Фамилия 2|Имя 3|Отценка 4|
 |-|--------|---|---|
-|1| Церцвадзе|Зураб Юзович| 5 |
-|2|
-|3|         |             |  5 |
+|1| Церцвадзе|Зураб Юзович|5|
+|2| Чувашкина|Ольга Викторовна|5 |
+|3| Исаева  |Мария Александровна|5|
 |4|         |             |  5 |
 |5|         |             |  5 |
 |6|         |             |  5 |
