@@ -76,7 +76,7 @@ https://okeanea-clinic.ru/analizy#contacts
 
 ###
 
-Писать `[ ]` Писать  `( )`.
+Писать `[github ]` Писать  `(github )`.
 
 
   Test Ocean
