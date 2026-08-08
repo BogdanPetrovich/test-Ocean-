@@ -1,6 +1,3 @@
-# Надо изменит немношка код 
-
-
 # Test Ocean three
 
 # Test Ocean three
