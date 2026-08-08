@@ -84,7 +84,9 @@ https://okeanea-clinic.ru/analizy#contacts
  [x] Test Ocean
 - [x] https://okeanea-clinic.ru/#problemy-tsertsvadze
 - [ ] https://okeanea-clinic.ru/analizy
-      
+- [ ] https://okeanea-clinic.ru/kardiolog
+- [ ] https://okeanea-clinic.ru/kardiolog
+  
 
 [^1]: This is the first footnote.
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
@@ -107,11 +109,6 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 > [!CAUTION]
 > ffffff
 
-* [ ] Test one 
-* [x] ggdsdg
-* [x] sgsgdg
-* [ ] sgsdgs
-* [ ] sgdsgg
 
 
 
@@ -119,7 +116,3 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 
 
-
-
-```
-````
