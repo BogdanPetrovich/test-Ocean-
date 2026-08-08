@@ -34,10 +34,6 @@ Text for quick copying - Текст для быстрого копировани
 https://okeanea-clinic.ru/
 ```
 
-
-<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/ce98b0e0-8256-4e67-9c35-32ddfeecc1f5" />
-
-
 ``Зайдите и посмотрите, какие врачи работают - Come in and see which doctors are working.
 ```
 https://okeanea-clinic.ru/#doctors
