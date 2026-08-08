@@ -104,7 +104,17 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 
 
+# Игнорировать каталог в любом месте
+https://willkyu.github.io/ZONE/Emoji/Emoji.html node_modules/
 
+# Игнорировать файлы логов в любом месте
+*https://willkyu.github.io/ZONE/Emoji/Emoji.html.log
+
+# Игнорировать каталог в корне
+https://willkyu.github.io/ZONE/Emoji/Emoji.html/dist
+
+# Игнорировать файл с окончанием
+https://willkyu.github.io/ZONE/Emoji/Emoji.html.env
 
 
 
