@@ -81,9 +81,6 @@ https://okeanea-clinic.ru/analizy#contacts
 Писать `[ ]` Писать  `( )`.
 
 
- ![:]
-
-
  [x] Test Ocean
 - [x] https://okeanea-clinic.ru/#problemy-tsertsvadze
 - [ ] https://okeanea-clinic.ru/analizy
