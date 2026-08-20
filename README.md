@@ -411,85 +411,41 @@ public class TestExample {
 ```
  * Тестирован 1  (Океян) :
 ```java
-package org.example;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
-
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
-public class TestDirectorEmail {
- private WebDriver driver;
- private WebDriverWait wait;
-
- // ЛУЧШЕ: ищем mailto-ссылку (типично для email директора)
- private static final By DIRECTOR_EMAIL_LOCATOR = By.xpath("//a[contains(@href, ′mailto:′)]");
- 
- // Если нет mailto — попробуйте так:
- // private static final By DIRECTOR_EMAIL_LOCATOR = By.cssSelector("[data-testid=′director-email′]");
- 
- private static final By MENU_LOCATOR = By.xpath("//a[text()=′Океян′]");
- private static final String EXPECTED_TITLE = "Океян";
- private static final String TEST_URL = "https://okeanea-clinic.ru/";
-
- @BeforeEach
- void setUp() {
- // Убрал лишнюю строку Object WebDriverManager;
- io.github.bonigarcia.wdm.WebDriverManager.chromedriver().setup();
- 
- driver = new ChromeDriver();
- driver.manage().window().maximize();
- wait = new WebDriverWait(driver, Duration.ofSeconds(10));
- driver.get(TEST_URL);
- }
-
- @Test
- void checkDirectorEmailOnPage() {
- WebElement linkElement = wait.until(
- ExpectedConditions.elementToBeClickable(MENU_LOCATOR)
- );
- 
- ((JavascriptExecutor) driver).executeScript(
- "arguments[0].scrollIntoView({block: ′center′});", linkElement
- );
- ((JavascriptExecutor) driver).executeScript("arguments[0].click();", linkElement);
- 
- wait.until(ExpectedConditions.titleContains(EXPECTED_TITLE));
- 
- // Дожидаемся видимости элемента (не только присутствия в DOM)
- WebElement emailLink = wait.until(
- ExpectedConditions.visibilityOfElementLocated(DIRECTOR_EMAIL_LOCATOR)
- );
- 
- ((JavascriptExecutor) driver).executeScript(
- "arguments[0].scrollIntoView({block: ′center′});", emailLink
- );
-
- assertTrue(emailLink.isDisplayed(), "Email директора не найден!");
-
- String actualEmailText = emailLink.getText();
- System.out.println("Найден email директора: " + actualEmailText + "\nПроверка пройдена успешно!");
- }
-
- @AfterEach
- void tearDown() {
- if (driver != null) {
- driver.quit();
- }
- }
-}
 ```
 * Тестирован 2:
+```java
+@Test
+public void testAppointmentForm() {
+ // 1. Открыть сайт
+ driver.get("https://okeanea-clinic.ru/");
+ 
+ // 2. Перейти к врачу
+ driver.findElement(By.cssSelector("[data-testid=′doctors-link′]")).click();
+ 
+ // 3. Открыть карточку врача (первый в списке)
+ driver.findElement(By.cssSelector(".doctor-card")).click();
+ 
+ // 4. Нажать «Записаться»
+ driver.findElement(By.cssSelector("[data-testid=′appointment-btn′]")).click();
+ 
+ // 5. Заполнить форму
+ driver.findElement(By.name("patient_name")).sendKeys("Тест Тестов");
+ driver.findElement(By.name("phone")).sendKeys("+79000000000");
+ driver.findElement(By.name("comment")).sendKeys("Автотест");
+ 
+ // 6. Отправить
+ driver.findElement(By.cssSelector("[type=′submit′]")).click();
+ 
+ // 7. Проверить подтверждение
+ WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+ wait.until(ExpectedConditions.visibilityOfElementLocated(
+ By.cssSelector(".success-message")));
+ 
+ System.out.println("Форма успешно отправлена");
+}
+```
+* Проверка ссылок социальных сетей через List WebElement и CSS-селектор:
 ```java
 package org.example;
 
@@ -567,13 +523,85 @@ public class TestDirectorEmail {
  }
 }
 ```
-* Проверка ссылок социальных сетей через List WebElement и CSS-селектор:
-```java
-
-```
 * Поиск e-mail Директора с помощью xPath:
 ```java
+package org.example;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+public class TestDirectorEmail {
+ private WebDriver driver;
+ private WebDriverWait wait;
+
+ // ЛУЧШЕ: ищем mailto-ссылку (типично для email директора)
+ private static final By DIRECTOR_EMAIL_LOCATOR = By.xpath("//a[contains(@href, ′mailto:′)]");
+ 
+ // Если нет mailto — попробуйте так:
+ // private static final By DIRECTOR_EMAIL_LOCATOR = By.cssSelector("[data-testid=′director-email′]");
+ 
+ private static final By MENU_LOCATOR = By.xpath("//a[text()=′Океян′]");
+ private static final String EXPECTED_TITLE = "Океян";
+ private static final String TEST_URL = "https://okeanea-clinic.ru/";
+
+ @BeforeEach
+ void setUp() {
+ // Убрал лишнюю строку Object WebDriverManager;
+ io.github.bonigarcia.wdm.WebDriverManager.chromedriver().setup();
+ 
+ driver = new ChromeDriver();
+ driver.manage().window().maximize();
+ wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+ driver.get(TEST_URL);
+ }
+
+ @Test
+ void checkDirectorEmailOnPage() {
+ WebElement linkElement = wait.until(
+ ExpectedConditions.elementToBeClickable(MENU_LOCATOR)
+ );
+ 
+ ((JavascriptExecutor) driver).executeScript(
+ "arguments[0].scrollIntoView({block: ′center′});", linkElement
+ );
+ ((JavascriptExecutor) driver).executeScript("arguments[0].click();", linkElement);
+ 
+ wait.until(ExpectedConditions.titleContains(EXPECTED_TITLE));
+ 
+ // Дожидаемся видимости элемента (не только присутствия в DOM)
+ WebElement emailLink = wait.until(
+ ExpectedConditions.visibilityOfElementLocated(DIRECTOR_EMAIL_LOCATOR)
+ );
+ 
+ ((JavascriptExecutor) driver).executeScript(
+ "arguments[0].scrollIntoView({block: ′center′});", emailLink
+ );
+
+ assertTrue(emailLink.isDisplayed(), "Email директора не найден!");
+
+ String actualEmailText = emailLink.getText();
+ System.out.println("Найден email директора: " + actualEmailText + "\nПроверка пройдена успешно!");
+ }
+
+ @AfterEach
+ void tearDown() {
+ if (driver != null) {
+ driver.quit();
+ }
+ }
+}
 ```
 
 <p align="center"><b>На этом репозиторий подошел к концу! :neckbeard: <br>Всем спасибо за внимание! :godmode: </b></p>
