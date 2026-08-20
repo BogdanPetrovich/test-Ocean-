@@ -405,9 +405,17 @@ public class TestExample {
 5. **Следите за совместимостью версий Selenium и WebDriver
    
 ### Примеры тестов будет продемонстрирован на базе сайта ["Полекленика Океян"](https://okeanea-clinic.ru/):
- * Поиск по заголовку через xPath:
+ * Пример тест 1:
 ```java
-
+// После клика проверьте количество вкладок
+String originalWindow = driver.getWindowHandle();
+// ... клик ...
+for (String windowHandle : driver.getWindowHandles()) {
+ if (!windowHandle.equals(originalWindow)) {
+ driver.switchTo().window(windowHandle);
+ break;
+ }
+}
 ```
  * Тестирован 1  (Океян) :
 ```java
@@ -430,9 +438,9 @@ public void testAppointmentForm() {
  driver.findElement(By.cssSelector("[data-testid=′appointment-btn′]")).click();
  
  // 5. Заполнить форму
- driver.findElement(By.name("patient_name")).sendKeys("Тест Тестов");
- driver.findElement(By.name("phone")).sendKeys("+79000000000");
- driver.findElement(By.name("comment")).sendKeys("Автотест");
+ driver.findElement(By.name("patient_name")).sendKeys("Bogdan");
+ driver.findElement(By.name("phone")).sendKeys("+79093346565");
+ driver.findElement(By.name("comment")).sendKeys("Тест прашёл");
  
  // 6. Отправить
  driver.findElement(By.cssSelector("[type=′submit′]")).click();
